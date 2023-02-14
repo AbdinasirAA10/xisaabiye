@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="callcul.css">
+    <title>Calculator - Abdinasir Abdullahi</title>
+</head>
+<body>
+
+    <!-- Somali Language  -->
+    <!-- waa xisaabiye waxaana ogu tala galay Bulshada 
+        in ay ka faa ideystaan, waana Bilaash 100% 
+        halkaad rabtid ayaad ku isticmaali kartaa waxaaana 
+        qaabeeyay oo sameeyayoo qurxiyay Abdinasir Abdullahi 
+        kuna magac dheer ka faa ideysi wacan -->
+
+    <!-- english Language -->
+
+    <!-- its totally free 100% 
+        originally designed by Abdinasir Abdullahi
+    -->
+    
+    <div class="calculator">
+        <div class="before">
+            <form id="call">
+               <div class="read">
+                <p>
+                    <input type="text" name="display" id="display" readonly>
+                </p>
+               </div>
+               <div class="all-btn">
+                <p>
+                    <button type="button" onclick="call.display.value = ''" value="AC" class="AC op-1">AC</button>
+                    <button type="button" onclick="call.display.value += '+'" value="+" class="op-1">+</button>
+                    <button type="button" onclick="call.display.value += '-'" value="-" class="op-1" >-</button>
+                </p>
+
+                <p>
+                    <button type="button" onclick="call.display.value += '1'" value="1" >1</button>
+                    <button type="button" onclick="call.display.value += '2'" value="2" >2</button>
+                    <button type="button" onclick="call.display.value += '3'" value="3" >3</button>
+                    <button type="button" onclick="call.display.value += '*'" value="x" class="op">X</button>
+                </p>
+
+                <p>
+                    <button type="button" onclick="call.display.value += '4'" value="4" >4</button>
+                    <button type="button" onclick="call.display.value += '5'" value="5" >5</button>
+                    <button type="button" onclick="call.display.value += '6'" value="6" >6</button>
+                    <button type="button" onclick="call.display.value += '/'" value="/" class="op" >/</button>
+
+                </p>
+
+                <p>
+                    <button type="button" onclick="call.display.value += '7'" value="7" >7</button>
+                    <button type="button" onclick="call.display.value += '8'" value="8" >8</button>
+                    <button type="button" onclick="call.display.value += '9'" value="9" class="nine" >9</button>
+                    <button type="button" onclick="call.display.value += '%'" value="%" class="op" >%</button>
+
+                </p>
+
+                <p>
+                    <button type="button" onclick="call.display.value += '0'" value="0" class="" >0</button>
+                    <button type="button" onclick="call.display.value += '.'" value="." >.</button>
+                    <button type="button" onclick="call.display.value = eval(call.display.value)" value="=" class="zero op" >=</button>
+                </p>
+
+               </div>
+
+            </form>
+
+            <div class="footer" style="z-index: 2;">
+                <p style="color: white; text-align: center; font-size: 14px;">&copy; Righserve 2023 || Designed by Abdinasir Abdullahi  </p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/abdinasiraa10"><img src="icons/facebook.png" alt=""></a>
+                       <a href="https://www.instagram.com/abdinasiraa10/"><img src="icons/ins1.png" alt=""></a>
+                       <a href="https://twitter.com/abdinasiraa10"><img src="icons/twitter1.jpg" alt=""></a>
+                    </div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

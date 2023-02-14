@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* waxaa diyaariyay Abdinasir Abdullahi - Risaan Love */
+
+/* its prepared by Abdinasir Abdullahi - Risaan Love */
+
+/*  xisaabiye  */
+.calculator{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-50deg, rgb(7, 16, 71),rgba(80, 12, 80, 0.178));
+    position: relative;
+    overflow: hidden;
+
+}
+.calculator::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.205);
+    transform: rotate(-50deg);
+    z-index: 1;
+}
+/* call form stylish */
+.calculator .before{
+    z-index: 2;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.calculator form{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.144);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* where to display */
+.read {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background: rgba(41, 2, 2, 0.384);    
+}
+.read input{
+    background: rgba(251, 255, 0, 0);
+    padding: 1px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1px;
+    text-align: right;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    }
+/* designing all btns */
+
+.all-btn button{
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background: rgba(27, 25, 25, 0.376);
+    color: white;
+}
+.all-btn button:hover{
+    background: rgb(167, 158, 158);
+}
+.all-btn p{
+   margin-top: 10px;
+}
+/* the 2 large ones without deep rediuse */
+.all-btn .AC{
+    width: 137px;
+    border-radius: 0%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.all-btn .op-1{
+    background: rgb(221, 221, 221);
+    color: black;
+}
+.all-btn .op-1:hover{
+    background: #ccc;
+}
+
+.all-btn .zero{
+    width: 135px;
+    border-radius: 0%;
+    height: 40px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.all-btn .equal{
+    width: 67px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+/* the oporaters deisgn */
+
+.calculator .op{
+    background: darkorange;
+}
+.calculator .op:hover{
+    background: rgb(53, 3, 3);
+}
+
+
+/* icons imgaes */
+.icons {
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    display: flex;
+}
+
+
+.icons a, img{
+    width: 50px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+
